@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1508218973 source:c:\users\acc\desktop\codeblocks projects\zgadnij jaka to liczba\main.cpp
+	<iostream>
+	<cstdlib>
+	<time.h>
+

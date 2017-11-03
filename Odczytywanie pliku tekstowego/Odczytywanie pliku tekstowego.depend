@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1508538707 source:c:\users\acc\desktop\codeblocks projects\odczytywanie pliku tekstowego\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+

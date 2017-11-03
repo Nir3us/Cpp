@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1508279397 source:c:\users\acc\desktop\codeblocks projects\fibonacci\main.cpp
+	<iostream>
+	<iomanip>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1508538707 source:c:\users\acc\desktop\codeblocks projects\quizz\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<algorithm>
+	<string>
+
