@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1602954948 source:d:\codeblocks\aplikacje\letstrit\main.cpp
+	<cstddef>
+	<iostream>
+	<float.h>
+	<iomanip>
+
