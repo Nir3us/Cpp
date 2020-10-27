@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1603835719 source:d:\codeblocks\aplikacje\s7xquiz\main.cpp
+	<iostream>
+	<string>
+
