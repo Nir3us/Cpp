@@ -1,16 +1,24 @@
 #include <iostream>
 
-using namespace std;
-int populacja=1; int godzin=0;
-
 int main()
 {
-    while(populacja<=1000000000)
+    int count{ 0 };
+
+    while (count < 10)
     {
-        godzin++;
-        populacja=populacja*2;
-        cout<<"Minelo godzin:"<<godzin;
-        cout<<" liczba bakterii: "<<populacja<<endl;
+        std::cout << count << ' ';
+        ++count;
     }
+    std::cout << "done!";
+
+
+
+
+    /*
+    while(true)
+    {
+    //do something
+    }
+    */
     return 0;
 }
