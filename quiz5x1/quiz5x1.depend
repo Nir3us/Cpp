@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1604611432 source:d:\codeblocks\aplikacje\quiz5x1\main.cpp
+	"constants.h"
+	<iostream>
+
+1604611122 d:\codeblocks\aplikacje\quiz5x1\constants.h
+
