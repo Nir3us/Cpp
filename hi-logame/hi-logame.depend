@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1604614206 source:d:\codeblocks\aplikacje\hi-logame\main.cpp
+	<ctime>
+	<random>
+	<iostream>
+
