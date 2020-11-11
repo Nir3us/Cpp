@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1605045887 source:d:\codeblocks\aplikacje\quiz643\main.cpp
+	<iostream>
+	<algorithm>
+	<iterator>
+
