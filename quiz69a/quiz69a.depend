@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1605652536 source:d:\codeblocks\aplikacje\quiz69a\main.cpp
+	<iostream>
+	<cstddef>
+	<algorithm>
+	<iterator>
+
