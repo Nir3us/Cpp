@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1605809634 source:d:\codeblocks\aplikacje\quiz12a\main.cpp
+	<iostream>
+	<string_view>
+
