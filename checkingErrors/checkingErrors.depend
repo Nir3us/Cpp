@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1606933350 source:d:\codeblocks\aplikacje\checkingerrors\main.cpp
+	<iostream>
+	<string>
+	<limits>
+
