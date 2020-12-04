@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1606944926 source:d:\codeblocks\aplikacje\blackjackquiz6x\main.cpp
+	<iostream>
+	<array>
+	<ctime>
+	<random>
+	<algorithm>
+	<string>
+
