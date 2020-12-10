@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1607546193 source:d:\codeblocks\aplikacje\commandlinearguments\main.cpp
+	<iostream>
+	<sstream>
+	<string>
+
