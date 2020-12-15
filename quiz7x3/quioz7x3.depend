@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1608050663 source:d:\codeblocks\aplikacje\quioz7x3\main.cpp
+	<cassert>
+	<numeric>
+
