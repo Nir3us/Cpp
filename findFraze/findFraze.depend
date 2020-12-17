@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1608214203 source:d:\codeblocks\aplikacje\findfraze\main.cpp
+	<algorithm>
+	<array>
+	<iostream>
+	<string_view>
+	<string>
+
