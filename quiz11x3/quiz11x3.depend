@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1610389985 source:d:\codeblocks\aplikacje\quiz11x3\main.cpp
+	<iostream>
+	<string>
+	<string_view>
+	<random>
+
