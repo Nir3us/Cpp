@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1610476382 source:d:\codeblocks\aplikacje\quiz11x4\main.cpp
+	<algorithm>
+	<array>
+	<cassert>
+	<ctime>
+	<iostream>
+	<random>
+
