@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1610657403 source:d:\codeblocks\aplikacje\quiz134\main.cpp
+	<iostream>
+	<limits>
+
