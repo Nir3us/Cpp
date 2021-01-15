@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1610728874 source:d:\codeblocks\aplikacje\booloperators\main.cpp
+	<iostream>
+	<string>
+
