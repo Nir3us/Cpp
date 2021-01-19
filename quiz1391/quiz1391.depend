@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1611065254 source:d:\codeblocks\aplikacje\quiz1391\main.cpp
+	<algorithm>
+	<iostream>
+	<string>
+	<vector>
+
