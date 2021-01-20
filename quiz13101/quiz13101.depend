@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1611139746 source:d:\codeblocks\aplikacje\quiz13101\main.cpp
+	<string>
+	<iostream>
+	<cassert>
+
