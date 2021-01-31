@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1612110992 source:d:\codeblocks\aplikacje\quiz13x4d\main.cpp
+	<iostream>
+	<cstdint>
+	<cmath>
+
