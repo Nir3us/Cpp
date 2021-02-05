@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1612563032 source:d:\codeblocks\aplikacje\initialization\main.cpp
+	<cassert>
+	<initializer_list>
+	<iostream>
+
