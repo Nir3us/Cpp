@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1615380338 source:d:\codeblocks\aplikacje\tamplateclassesinotherfiles\main.cpp
+	<iostream>
+	"Array.h"
+
+1615380338 d:\codeblocks\aplikacje\tamplateclassesinotherfiles\array.h
+	<cassert>
+
