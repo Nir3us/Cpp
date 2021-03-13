@@ -1,45 +1,68 @@
-#include <iostream>
+#include<iostream>
 
- template <class T>
-class Storage8
+template <class T, int size>
+class StaticArray_Base
 {
-private:
-    T m_array[8];
+protected:
+
+	T m_array[size]{};
 
 public:
-    void set(int index, const T &value)
-    {
-        m_array[index] = value;
-    }
+	T* getArray() { return m_array; }
 
-    const T& get(int index) const
-    {
-        return m_array[index];
-    }
+	T& operator[](int index)
+	{
+		return m_array[index];
+	}
+
+	void print()
+	{
+		for (int i{ 0 }; i < size; ++i)
+			std::cout << m_array[i];
+		std::cout << '\n';
+	}
+
+	virtual ~StaticArray_Base() = default;
+};
+
+template <class T, int size>
+class StaticArray: public StaticArray_Base<T, size>
+{
+public:
+};
+
+template <int size>
+class StaticArray<double, size>: public StaticArray_Base<double, size>
+{
+public:
+
+	void print()
+	{
+		for (int i{ 0 }; i < size; ++i)
+			std::cout << std::scientific << this->m_array[i] << ' ';
+
+		std::cout << '\n';
+	}
 };
 
 int main()
 {
 
-    Storage8<int> intStorage;
-
-    for (int count{ 0 }; count < 8; ++count)
-        intStorage.set(count, count);
-
-    for (int count{ 0 }; count < 8; ++count)
-        std::cout << intStorage.get(count) << '\n';
+	StaticArray<int, 6> intArray{};
 
 
-    Storage8<bool> boolStorage;
-    for (int count{ 0 }; count < 8; ++count)
-        boolStorage.set(count, count & 3);
+	for (int count{ 0 }; count < 6; ++count)
+		intArray[count] = count;
 
-	std::cout << std::boolalpha;
+	intArray.print();
 
-    for (int count{ 0 }; count<8; ++count)
-    {
-        std::cout << boolStorage.get(count) << '\n';
-    }
 
-    return 0;
+	StaticArray<double, 4> doubleArray{};
+
+	for (int count{ 0 }; count < 4; ++count)
+		doubleArray[count] = (4.0 + 0.1 * count);
+
+	doubleArray.print();
+
+	return 0;
 }
